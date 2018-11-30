@@ -2,12 +2,12 @@ SET serveroutput on;
 
 DECLARE
 
-    t_combinations     MY_TYPES.MATRIX2D;
-    r_input   my_types.ARRAY_LIST := my_types.ARRAY_LIST(1, 2, 3, 4);
+    t_combinations     INTEGER_MATRIX;
+    r_input   INTEGER_ARRAY := INTEGER_ARRAY(1, 2, 3, 4);
 
-    r_res MY_TYPES.ARRAY_LIST;
+    r_res INTEGER_ARRAY;
 BEGIN
---    t_combinations := PERMUTATION.VARIATION_MIT_WIEDERHOLUNG(R_INPUT,2);
+    t_combinations := PERMUTATION.VARIATION_MIT_WIEDERHOLUNG(R_INPUT,2);
     t_combinations := PERMUTATION.KOMBINATION_OHNE_WIEDERHOLUNG(R_INPUT,3);
     t_combinations := PERMUTATION.KOMBINATION_OHNE_WIEDERHOLUNG(R_INPUT,2);
     t_combinations := PERMUTATION.KOMBINATION_OHNE_WIEDERHOLUNG(R_INPUT,1);
