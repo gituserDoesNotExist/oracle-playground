@@ -1,9 +1,0 @@
-﻿
-
-DECLARE
-  TO1 TEST_OBJECT;
-BEGIN
-  DBMS_OUTPUT.PUT_LINE('dsf');
-
-  TO1 := NEW TEST_OBJECT('hello','world');
-END;
