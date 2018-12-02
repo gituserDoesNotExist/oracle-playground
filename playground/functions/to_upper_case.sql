@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION "PLAYGROUND"."TO_UPPER_CASE" (
+    p_v_input IN   VARCHAR2
+) RETURN VARCHAR2 AS
+BEGIN
+    RETURN UPPER(p_v_input);
+END to_upper_case;
+/

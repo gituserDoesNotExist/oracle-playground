@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION "PLAYGROUND"."TO_LOWER_CASE" (
+    p_v_input IN   VARCHAR2
+) RETURN VARCHAR2 AS
+BEGIN
+    RETURN LOWER(p_v_input);
+END to_lower_case;
+/

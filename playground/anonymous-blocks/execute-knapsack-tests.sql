@@ -1,4 +1,7 @@
-﻿
+﻿BEGIN
+  ut.run('PLAYGROUND.TEST_SUBSTRING');
+END;
+/
 
 BEGIN
   ut.run('PLAYGROUND.TEST_LIST_UTILS');
