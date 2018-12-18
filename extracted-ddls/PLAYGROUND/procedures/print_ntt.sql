@@ -1,5 +1,5 @@
 CREATE OR REPLACE PROCEDURE "PLAYGROUND"."PRINT_NTT" (
-    r_input_tab IN   my_types.number_table
+    r_input_tab IN   PLAYGROUND.INTEGER_ARRAY
 ) AUTHID DEFINER AS
 BEGIN
     dbms_output.put_line('nested table:');
