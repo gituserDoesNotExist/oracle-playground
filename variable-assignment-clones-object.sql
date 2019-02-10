@@ -8,7 +8,7 @@ declare
     o1 cla;
     o2 cla;
 begin
-    o1 := cla('hi cloning world');
+    o1 := cla('hi cloning world!');
     o2 := o1;
     o1.name := 'goodbye cloning world';
 
